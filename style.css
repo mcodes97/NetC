@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+/* index html */
+
+#title{
+  width: 100%;
+  height: 100%;
+}
+
+h2{
+  z-index: 99;
+  margin-bottom: 4rem;
+}
+
+.mybtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+a.button1{
+  flex: 1;
+  padding:0.35em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  text-decoration:none;
+  color:#020202;
+  text-align:center;
+  transition: all 0.2s;
+  background-color: #ddd;
+  }
+  a.button1:hover{
+  color:#000000;
+  background-color:#575757;
+  }
+  
+  a.button2{
+    padding:0.35em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#020202;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #ddd;
+    }
+    a.button2:hover{
+    color:#000000;
+    background-color:#575757;
+    }
+
+/* comic html */
+
+#comic1{
+  width: 100%;
+  height: 100%;
+}
+
+#comic2{
+  width: 100%;
+  height: 100%;
+}
+
+#comic3{
+  width: 100%;
+  height: 100%;
+}
+
+#comic4{
+  width: 100%;
+  height: 100%;
+}
+
+#comic5{
+  width: 100%;
+  height: 100%;
+}
+
+#comic6{
+  width: 100%;
+  height: 100%;
+}
+
+#comic7{
+  width: 100%;
+  height: 100%;
+}
+
+#comic8{
+  width: 100%;
+  height: 100%;
+}
+
+#comic9{
+  width: 100%;
+  height: 100%;
+}
+
+.mybtn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+a.cbtn-m{
+  padding:0.35em 1.2em;
+  border-radius:0.12em;
+  text-decoration:none;
+  color:#020202;
+  text-align:center;
+  transition: all 0.2s;
+  background-color: #ddd;
+  }
+  a.cbtn-m:hover{
+  color:#000000;
+  background-color:#575757;
+  }
+
+  .scrollTop{
+    padding:0.35em 1.2em;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#020202;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #ddd;
+    cursor: pointer;
+    }
+
+  .scrollTop:hover{
+    color:#000000;
+    background-color:#575757;
+    }
+
+  footer{
+    color: #bebebe;
+    font-size: 12px;
+    font-weight: light;
+  }
