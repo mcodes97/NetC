@@ -179,9 +179,9 @@ a.cbtn-m{
     font-weight: light;
   }
 
-@media (max-width: 3000px){
+@media (max-width: 2440px){
   #comic1{
-  width: 100px;
+  width: 300px;
   height: 300px;
 }
 }
