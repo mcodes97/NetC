@@ -179,9 +179,9 @@ a.cbtn-m{
     font-weight: light;
   }
 
-@media (max-width: 1240px){
-  #comic1, #comic2, #comic3, #comic4, #comic5, #comic6, #comic7, #comic8, #comic9, #comic10, #comic11{
-  width: 300px;
+@media (min-width: 1240px){
+  #comic1{
+  width: 100px;
   height: 300px;
 }
 }
