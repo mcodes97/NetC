@@ -178,10 +178,4 @@ a.cbtn-m{
     font-size: 12px;
     font-weight: light;
   }
-
-@media (min-width: 100em){
-  #comic1{
-  width: 600px;
-  height: 600px;
-}
 }
