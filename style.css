@@ -178,3 +178,5 @@ a.cbtn-m{
     font-size: 12px;
     font-weight: light;
   }
+
+@media (maxx-width: 1240px)
